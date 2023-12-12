@@ -9,6 +9,6 @@ extern void afficherliste(liste);
 extern int case_vide(liste);
 extern liste case_suivante(liste);
 extern ptr_pathway retourcontenu(liste);
-extern liste supprimer(liste);
+extern liste supprimer(vector);
 
 #endif
